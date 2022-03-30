@@ -1,0 +1,12 @@
+import cv2
+import mediapipe as mp
+import time
+num_face=2
+class Facialandmarks():
+  def __init__(self,staticmode=False,maxFace=num_Face,mindetectioncon=0.5,mintrackcon=0.5
+        self.staticmode=staticmode
+        self.maxFace=maxFace
+        self.mindetectioncon = mindetectioncon
+        self.mintrackcon=mintrackcon
+
+        self.mpdraw=np.solutions
